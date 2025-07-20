@@ -1,0 +1,28 @@
+path: C:\Users\eda\Desktop\trafficDataset
+train: C:\Users\eda\Desktop\trafficDataset\images\train
+val: C:\Users\eda\Desktop\trafficDataset\images\val
+test: C:\Users\eda\Desktop\trafficDataset\images\test
+
+
+names: 
+  0: car
+  1: number plate
+  2: blur number plate
+  3: two wheeler
+  4: auto
+  5: bus
+  6: truck
+  
+  # Augmentation settings
+augmentations:
+  mosaic: 1.0       # Enable mosaic augmentation (1.0 to enable, 0.0 to disable)
+  mixup: 0.5        # Enable mixup augmentation (value between 0.0 and 1.0)
+  copy_paste: 0.5   # Enable copy-paste augmentation (value between 0.0 and 1.0)
+  hsv_h: 0.015      # Hue augmentation
+  hsv_s: 0.7        # Saturation augmentation
+  hsv_v: 0.4        # Value augmentation
+  flipud: 0.5       # Vertical flip augmentation
+  fliplr: 0.5       # Horizontal flip augmentation
+  scale: 0.5        # Scale augmentation
+  translate: 0.1    # Translate augmentation
+  degrees: 10.0     # Rotation augmentation
