@@ -22,6 +22,6 @@ This project implements a car detection and alert system designed specifically f
 
 
 To run the code:
-git clone https://github.com/nwojke/deep_sort.git
-pip install requirements.txt
-python tracker-car.py
+-git clone https://github.com/nwojke/deep_sort.git
+-pip install requirements.txt
+-python tracker-car.py
